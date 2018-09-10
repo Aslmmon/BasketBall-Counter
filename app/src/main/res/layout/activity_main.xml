@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:backgroundTintMode="multiply"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TEAM A"
+            android:textColor="@color/blueLight"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showResultTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="cursive"
+            android:text="0"
+            android:textColor="@color/blueLight"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addOneTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/round"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/addTwoTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/round"
+            android:text="+2"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/addThreeTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/round"
+            android:text="+3"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/ResetTeamA"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:fontFamily="monospace"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/red"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="2.5dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#c6848484" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TEAM B"
+            android:textColor="@color/red"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showResultTeamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="cursive"
+            android:text="0"
+            android:textColor="@color/red"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addOneTeamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/roundb"
+            android:text="+1"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/addTwoTeamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/roundb"
+            android:text="+2"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/addThreeTeamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/roundb"
+            android:text="+3"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/ResetTeamB"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="Reset"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/red"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
